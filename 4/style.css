@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji";
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    color: black;
+    text-align: left;
+    background-color:cyan;
+    border: 1px solid;
+  }
+  .container {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    background-color: salmon;
+    padding-top: 40px;
+    border-bottom: 1px solid;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  @keyframes example {
+    0% {
+      background-color: blueviolet;
+      left: 0px;
+      top: 0px;
+    }
+    25% {
+      background-color: green;
+      left: 200px;
+      top: 0px;
+    }
+    50% {
+      background-color: red;
+      left: 200px;
+      top: 200px;
+    }
+    75% {
+      background-color: purple;
+      left: 0px;
+      top: 200px;
+    }
+    100% {
+      background-color:yellow;
+      right: 0px;
+      top: 0px;
+    }
+  }
+  div {
+    position: relative;
+    animation-name: example;
+    animation-duration: 6s;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: salmon;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #111;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 15px;
+    background-color: salmon;
+    font-variant: small-caps;
+    font-style: normal;
+    color: #bbb;
+    padding-bottom: 100px;
+    font-size: medium;
+    color: #212529;
+    height: 50px;
+    margin-top: 100px;
+    border-top: 1px solid;
+  }
+  @media only screen and (max-width: 300px) {
+    .prev,
+    .next,
+    .text {
+      font-size: 11px;
+    }
+  }
+  .konten {
+    padding-left: 20px;
+  }
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color:pink (88, 77, 76);
+    }
+    #nav-atas-menu {
+      position: relative;
+      float: right;
+      display: block;
+      background-color:pink;
+    }
+    #nav-atas-logo-tulisan {
+      display: block;
+      background-color: pink;
+    }
+    .konten {
+      float: right;
+      display: block;
+      background-color:blck;
+    }
+    .footer {
+      float: right;
+      display: block;
+      background-color: pink;
+    }
+  }
